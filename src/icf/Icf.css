@@ -1,0 +1,788 @@
+
+  
+.schedule-section {
+    padding: 0px;
+}
+.raf__table {
+    border-spacing: 0 15px;
+}
+table {
+    width: 100%;
+  background-color: #FFF7EC;
+}
+
+/* .raf__table thead tr {
+  color : ffffff;
+} */
+
+.raf__table tr {
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 20%);
+}
+.raf__table td {
+    padding: 0.75rem 0.5rem;
+    text-align: center !important;
+    width: 33.33%;
+}
+
+table td {
+    padding: 2px 0;
+    font-weight: 500;
+}
+.scrollable-content, .scrollable-content-full {
+    overflow: auto;
+    position: relative;
+  /*  overflow-y: scroll; */
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  /*  height: calc(100vh - 150px); */
+}
+  thead {
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid #0a385c;
+}
+
+
+
+    .leaderBoard_wrapper .card-body
+      {
+          padding: .5rem;
+      }
+    .toggleSection  .nav-pills .nav-link {
+  border-radius: 0;
+  }
+  .toggleSection li.nav-item {
+      border: .045rem solid #AEC3FF!important;
+  }
+  .toggleSection .nav-item:not(:last-child) 
+  {
+      border-right: none!important;
+  }
+  .toggleSection li.nav-item:last-child {
+      border-radius: 0px 40px 40px 0px!important;
+      margin-left: -1px;
+  } 
+  .toggleSection li.nav-item:first-child {
+      border-radius: 40px 0px 0px 40px!important;
+  }
+  .toggleSection .nav-pills .nav-link {
+  border-radius: inherit!important;
+  padding-left: 1.675rem!important;
+  padding-right: 1.675rem!important;
+  font-size: inherit;
+  margin-left: 0.01rem;
+  }
+  @media only screen and (max-width: 576px) {
+      .toggleSection .nav-pills .nav-link {
+    
+    font-size: 0.7rem!important;
+}
+  .info-cta {
+    position: relative;
+    top: -1px;
+}  
+    .nav-justified-on-mobile .nav-item,.nav-justified-on-mobile>.nav-link{flex-basis:0;flex-grow:1;text-align:center}.nav-fill .nav-item .nav-link,.nav-justified-on-mobile .nav-item .nav-link{width:100%}
+  }
+  @media only screen and (max-width:320px) {
+      .toggleSection .nav-pills .nav-link {
+        padding-left: 1.675rem!important;
+  padding-right: 1.675rem!important;
+    font-size: 0.7rem!important;
+  }
+    .nav-justified-on-mobile .nav-item,.nav-justified-on-mobile>.nav-link{flex-basis:0;flex-grow:1;text-align:center}.nav-fill .nav-item .nav-link,.nav-justified-on-mobile .nav-item .nav-link{width:100%}
+  }
+  
+  #leaderBoard .card {border:0; border-left: 9px solid #EBEBEB;}
+  
+  .scroller{
+      overflow-x: hidden; 
+      overflow-y: scroll; 
+      height: 300px; 
+      width: auto; 
+      padding-top: 2px;
+  }
+  
+  #leaderBoard .scroller::-webkit-scrollbar {
+      width: 8px;
+  }
+  #leaderBoard .scroller::-webkit-scrollbar-thumb {
+      background-color: #F3F6F9;
+      border-radius: 20px;
+      border: 3px solid #D0DADD;
+  }
+  #leaderBoard .scroller::-webkit-scrollbar-track {
+      background: #D0DADD;
+  }
+  #leaderBoard .scroller::-webkit-scrollbar-thumb:hover {
+    background: #2F6FF1;
+  }
+  .leaderBoard_wrapper{margin-right: 2.1rem;}
+  .crownDiv {
+position: relative;
+margin-top: -7.175rem;
+margin-right: 1.5rem;
+width: 70px;
+    }
+  .col_paddingMobile
+      {
+          padding-right: 5px;
+      }
+  @media only screen and (max-width: 768px) {
+      .crownDiv {
+          margin-top: -3.875rem;
+      margin-right: 0;
+              }
+              .leaderBoard_h5, .pricePooltxt, .pricePooldigit , .winnerTxt , .winnerDigit{
+  font-size: .71rem;
+  padding: .2rem 0 0 0;
+      }
+      .leaderBoard_wrapper .card-body 
+      {
+          padding: 0 .5rem;
+      }
+          }
+  @media only screen and (max-width: 576px) {
+  .leaderBoard_wrapper .card-body {
+  padding: .1rem;
+      }
+      .leaderBoard_h5{
+  font-size: .7rem;
+  padding: .2rem 0 0 0;
+      }
+  h5.leaderBoard_h5
+  {
+  padding: .4rem 0;
+  }
+      
+      .leaderBoard_p, .pricePooltxt, .pricePooldigit , .winnerTxt , .winnerDigit{
+  font-size: .7rem;
+      }
+  
+      .col_paddingMobile
+      {
+          padding-right: 5px;
+      }
+  
+      .leaderBoard_wrapper {
+      margin-right: .9rem;
+      }
+      .responsiveHeading
+      {
+          font-size: 1.5rem;
+      }
+  }
+  
+  
+  @media only screen and (max-width: 320px) {
+      .leaderBoard_h5, .pricePooltxt, .pricePooldigit, .winnerTxt, .winnerDigit{
+  font-size: .5rem;
+  padding: .2rem 0 0 0;
+      }
+  }
+  
+  .bg-ligh-style{
+      margin: 0px 1px;
+      border-radius: 10px;
+  }
+  #Home_baazi_Rewards .splide__slide.is-active img{
+      transform: scale(0.9);
+  }
+  
+  .crdBorder {
+      border-radius: 8px;
+  }
+    .bannerBorderRadius
+      {
+          border-radius: 23px;
+      }
+  .accordion-button::after{ display:block!important}
+
+
+                        
+                        .swiper-container {
+                          width: 100%;
+                          height: auto;
+                          padding-bottom: 15px; /*space for the scrollbar*/
+                        }
+                        .swiper-container .nav{
+                            flex-wrap: nowrap;
+                        }
+                        .swiper-container .swiper-slide {
+                          width: auto!important; /*remove all important from your code*/
+                        }
+                        
+                        .swiper-container ul {
+                          list-style-type: none;
+                          margin: 0;
+                          padding: 0;
+                        }
+                        .swiper-container li {
+                          display: block;
+                          color: white;
+                          text-align: center;
+                          text-decoration: none;
+                        } 
+                        
+                         /* Change the link color to #111 (black) on hover  */
+                        /* .swiper-container li:hover {
+                          background-color: #111;
+                        } */
+
+  
+  .card-header1 > a:after {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+    text-align:right;
+}
+.card-header1 > .collapsed1:after {
+    float: right !important;
+    content:"\f067";
+}
+.card-header1 a
+{
+text-align:initial;
+width:100%;
+}
+ .card-header2 > a:after {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+    text-align:right;
+}
+.card-header2 > .collapsed2:after {
+    float: right !important;
+    content:"\f067";
+}
+.card-header2 a
+{
+text-align:initial;
+width:100%;
+}
+ .card-header3 > a:after {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+    text-align:right;
+}
+.card-header3 > .collapsed3:after {
+    float: right !important;
+    content:"\f067";
+}
+.card-header3 a
+{
+text-align:initial;
+width:100%;
+}
+ .card-header4 > a:after {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+    text-align:right;
+}
+.card-header4 > .collapsed4:after {
+    float: right !important;
+    content:"\f067";
+}
+.card-header4 a
+{
+text-align:initial;
+width:100%;
+}
+      .btn{
+            line-height: 2;
+      }
+      .card{
+      border-radius: 40px;
+      }
+      
+   .swiper-slide{
+      width:auto!important;
+      }
+      
+
+
+ /* <!-- leaderboard style for top 3 --> */
+
+thead {
+    position: sticky;
+    top: 0;
+    border-bottom: 0px solid #001C5B !important;
+}
+  td.custd {
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+}
+  tr:nth-child(even) {
+            background-color: #EEF5ED;
+        }
+  img.cnimg.w-100 {
+    position: relative;
+    top:0px !important;
+}
+  .cbdusername {
+    color: #0D6EFD;
+    font-size: 20px;
+}
+  .LeaderboardCardbaazi h4 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+  .LeaderboardCardbaazi p {
+    font-size: 20px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 576px) {
+.LeaderboardCardbaazi p {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 14px;
+}
+    .LeaderboardCardbaazi h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+}
+
+
+
+/* --------------------------------------------------------------------------- */
+
+.card-header > a:after {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+    text-align:right;
+}
+.card-header > .collapsed:after {
+    float: right !important;
+    content:"\f067";
+}
+.card-header a
+{
+text-align:initial;
+width:100%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+  
+  
+
+
+
+
+
+
+body {
+  background-color: #fff !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+  .parentToAll ul.custom-main-tabs li.nav-item:nth-child(1) button.active{
+   border-radius: 40px 0px 0px 40px !important;
+  }
+  .parentToAll ul.custom-main-tabs li.nav-item:nth-child(3) button.active{
+   border-radius: 0px 40px 40px 0px !important;
+  }
+  .parentToAll .custom-sub-tabs button:nth-child(1).active{
+    border-radius: 40px 0px 0px 40px !important;
+  }
+  .parentToAll .custom-sub-tabs button:last-child.active{
+    border-radius: 0px 40px 40px 0px !important;
+  }
+  
+.parentToAll .custom-main-tabs li.nav-item {
+  width: 33.3%;
+}
+
+.parentToAll .custom-main-tabs li.nav-item button {
+  width: 100%;
+}
+
+.parentToAll ul.custom-main-tabs, .parentToAll .nav-tabs {
+  border: 0.045rem solid #AEC3FF!important;
+    border-radius: 40px 40px;
+
+}
+
+.parentToAll ul.custom-main-tabs li:not(:last-child) {
+  border-right: 0.045rem solid #AEC3FF ;
+ 
+}
+.custom-sub-tabs button:not(:last-child) {
+    border-right: 0.045rem solid #AEC3FF !important;
+}
+.parentToAll li.nav-item:first-child {
+    border-radius: 40px 0px 0px 40px!important;
+}
+
+
+.parentToAll .custom-sub-tabs button {
+  width: 50%;
+}
+
+.parentToAll .nav-tabs .nav-link {
+  margin-bottom: 0px;
+  border: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.parentToAll .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .parentToAll .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+
+.parentToAll .nav-link {
+  color: #0d6efd !important;
+}
+
+.nps_table_header th:nth-child(odd) {
+  background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+  /* background: linear-gradient(to bottom, #413ac2 0%, #070084 25%, #07005e 75%, #211aa2 95%, #4a43cb 100%); */
+}
+
+.nps_table_header th:nth-child(even) {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+  background-blend-mode: multiply, multiply;
+  /* background: linear-gradient(to bottom, #ffffff 0%, #727070 35%, #353333 80%, #dbdbdb 95%, #ffffff 100%); */
+}
+
+.nps_table_body tr:nth-child(odd) {
+  background-color: #161f44;
+}
+
+.nps_table_body tr:nth-child(even) {
+  background-color: #090e24;
+}
+
+.nps_table_body td:not(:last-child) {
+  border-right: 1px solid #929292;
+}
+
+@media only screen and (max-width: 767px) {
+  .nps_table_outer table {
+    overflow-x: scroll;
+  }
+  .custom-sub-tabs button {
+    text-align: left;
+    width: 100% !important;
+	}
+  .parentToAll .custom-main-tabs li.nav-item button {
+    width: 100%;
+    font-size: 11px;
+	}
+  .custom-main-tabs .nav-link {
+    padding: 0.5rem 10px !important;  
+}
+  .custom-sub-tabs button:not(:last-child) {
+    border-right: none !important;
+}
+  
+}
+@media only screen and (max-width: 600px) {
+  .parentToAll .custom-sub-tabs button {
+    text-align: center;
+    width: 50% !important;
+	}
+}
+.bannerBorderRadius {
+    border-radius: 23px;
+}
+.text-blue {
+    color: #2F6FF1;
+}
+
+/* .nav.nav-tabs.custom-sub-tabs {
+    width: 33%; 
+  display: inline;
+	
+} */
+
+.custom-sub-tabs button{
+	text-align:center;
+	width:16.66% !important;
+}
+.side-tab button{
+	text-align:left;
+	width:100% !important;
+}
+/*.side-tab.nav.nav-tabs.custom-sub-tabs {
+    display: block;
+	width:33.33%;
+}
+*/
+table {
+    width: 100%;
+	background: #fff;
+}
+.bpl__table {
+    border-spacing: 0 15px;
+}
+.bpl__table thead tr {
+    background: #001c5b;
+    color: #fff;
+}
+
+.bpl__table tr {
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 20%);
+}
+.bpl__table td {
+    padding: 0.75rem 0.5rem;
+    text-align: left;
+	text-transform: uppercase;
+}
+
+table td {
+    padding: 2px 0;
+    font-weight: 500;
+}
+table tbody {
+    text-align: center;
+}
+.bpl__table tr {
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 20%);
+}
+/**********cb table data desgin********/
+.cardbaazirewards__tablehead {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 126.3%;
+    color: #717589;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.baazirewards__tabletxt {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #041b67;
+    opacity: .8;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+  
+  @media only screen and (max-width: 360px) {
+  .xyz{
+    padding-left: 4px;
+  }
+}
+
+
+/* --------------------------------------------------- */
+
+
+    .leaderBoard_wrapper .card-body
+      {
+          padding: .5rem;
+      }
+    .toggleSection  .nav-pills .nav-link {
+  border-radius: 0;
+  }
+  .toggleSection li.nav-item {
+      border: .045rem solid #AEC3FF!important;
+  }
+  .toggleSection .nav-item:not(:last-child) 
+  {
+      border-right: none!important;
+  }
+  .toggleSection li.nav-item:last-child {
+      border-radius: 0px 40px 40px 0px!important;
+      margin-left: -1px;
+  } 
+  .toggleSection li.nav-item:first-child {
+      border-radius: 40px 0px 0px 40px!important;
+  }
+  .toggleSection .nav-pills .nav-link {
+  border-radius: inherit!important;
+  padding-left: 1.675rem!important;
+  padding-right: 1.675rem!important;
+  font-size: inherit;
+  margin-left: 0.01rem;
+  }
+  @media only screen and (max-width: 576px) {
+      .toggleSection .nav-pills .nav-link {
+    
+    font-size: 0.7rem!important;
+}
+    .nav-justified-on-mobile .nav-item,.nav-justified-on-mobile>.nav-link{flex-basis:0;flex-grow:1;text-align:center}.nav-fill .nav-item .nav-link,.nav-justified-on-mobile .nav-item .nav-link{width:100%}
+  }
+  @media only screen and (max-width:320px) {
+      .toggleSection .nav-pills .nav-link {
+        padding-left: 1.675rem!important;
+  padding-right: 1.675rem!important;
+    font-size: 0.7rem!important;
+  }
+    .nav-justified-on-mobile .nav-item,.nav-justified-on-mobile>.nav-link{flex-basis:0;flex-grow:1;text-align:center}.nav-fill .nav-item .nav-link,.nav-justified-on-mobile .nav-item .nav-link{width:100%}
+  }
+  
+  #leaderBoard .card {border:0; border-left: 9px solid #EBEBEB;}
+  
+  .scroller{
+      overflow-x: hidden; 
+      overflow-y: scroll; 
+      height: 300px; 
+      width: auto; 
+      padding-top: 2px;
+  }
+  
+  #leaderBoard .scroller::-webkit-scrollbar {
+      width: 8px;
+  }
+  #leaderBoard .scroller::-webkit-scrollbar-thumb {
+      background-color: #F3F6F9;
+      border-radius: 20px;
+      border: 3px solid #D0DADD;
+  }
+  #leaderBoard .scroller::-webkit-scrollbar-track {
+      background: #D0DADD;
+  }
+  #leaderBoard .scroller::-webkit-scrollbar-thumb:hover {
+    background: #2F6FF1;
+  }
+  .leaderBoard_wrapper{margin-right: 2.1rem;}
+  .crownDiv {
+position: relative;
+margin-top: -7.175rem;
+margin-right: 1.5rem;
+width: 70px;
+    }
+  .col_paddingMobile
+      {
+          padding-right: 5px;
+      }
+  @media only screen and (max-width: 768px) {
+      .crownDiv {
+          margin-top: -3.875rem;
+      margin-right: 0;
+              }
+              .leaderBoard_h5, .pricePooltxt, .pricePooldigit , .winnerTxt , .winnerDigit{
+  font-size: .71rem;
+  padding: .2rem 0 0 0;
+      }
+      .leaderBoard_wrapper .card-body 
+      {
+          padding: 0 .5rem;
+      }
+          }
+  @media only screen and (max-width: 576px) {
+  .leaderBoard_wrapper .card-body {
+  padding: .1rem;
+      }
+      .leaderBoard_h5{
+  font-size: .7rem;
+  padding: .2rem 0 0 0;
+      }
+  h5.leaderBoard_h5
+  {
+  padding: .4rem 0;
+  }
+      
+      .leaderBoard_p, .pricePooltxt, .pricePooldigit , .winnerTxt , .winnerDigit{
+  font-size: .7rem;
+      }
+  
+      .col_paddingMobile
+      {
+          padding-right: 5px;
+      }
+  
+      .leaderBoard_wrapper {
+      margin-right: .9rem;
+      }
+      .responsiveHeading
+      {
+          font-size: 1.5rem;
+      }
+  }
+  
+  
+  @media only screen and (max-width: 320px) {
+      .leaderBoard_h5, .pricePooltxt, .pricePooldigit, .winnerTxt, .winnerDigit{
+  font-size: .5rem;
+  padding: .2rem 0 0 0;
+      }
+  }
+  
+  .bg-ligh-style{
+      margin: 0px 1px;
+      border-radius: 10px;
+  }
+  #Home_baazi_Rewards .splide__slide.is-active img{
+      transform: scale(0.9);
+  }
+  
+  .crdBorder {
+      border-radius: 8px;
+  }
+    .bannerBorderRadius
+      {
+          border-radius: 23px;
+      }
+  .accordion-button::after{ display:block!important}
+ 
+                        
+                        .swiper-container {
+                          width: 100%;
+                          height: auto;
+                          padding-bottom: 15px; /*space for the scrollbar*/
+                        }
+                        .swiper-container .nav{
+                            flex-wrap: nowrap;
+                        }
+                        .swiper-container .swiper-slide {
+                          width: auto!important; /*remove all important from your code*/
+                        }
+                        
+                        .swiper-container ul {
+                          list-style-type: none;
+                          margin: 0;
+                          padding: 0;
+                        }
+                        .swiper-container li {
+                          display: block;
+                          color: white;
+                          text-align: center;
+                          text-decoration: none;
+                        } 
+                        
+                         /* Change the link color to #111 (black) on hover  */
+                        /* .swiper-container li:hover {
+                          background-color: #111;
+                        } */
+
+                        
+                       
